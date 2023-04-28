@@ -1,0 +1,11 @@
+{
+  "name": "@siyuan-bazaar/create",
+  "version": "0.0.1",
+  "description": "A package that makes initializing SiYuan bazaar repo more easily",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

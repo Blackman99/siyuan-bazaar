@@ -1,0 +1,11 @@
+{
+  "name": "@siyuan-bazaar/utils",
+  "version": "0.0.1",
+  "description": "Util function that might be helpful when developing SiYuan Bazaar relative things.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

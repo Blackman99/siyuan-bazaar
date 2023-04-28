@@ -1,0 +1,12 @@
+{
+  "name": "@siyuan-bazaar/root",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A toolkit for developing [SiYuan Note](https://github.com/siyuan-note) relative things.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
