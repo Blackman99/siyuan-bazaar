@@ -5,8 +5,25 @@
   "description": "A toolkit for developing [SiYuan Note](https://github.com/siyuan-note) relative things.",
   "main": "index.js",
   "scripts": {
+    "release": "pnpm build:all && changeset publish",
+    "lint": "eslint -c ./.eslintrc.cjs --ext .js,.ts ./packages",
+    "build:all": "pnpm build:api && pnpm build:create && pnpm build:utils",
+    "build:api": "cd packages/api && pnpm build && cd ../..",
+    "build:create": "cd packages/create && pnpm build && cd ../..",
+    "build:utils": "cd packages/utils && pnpm build && cd ../.."
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@antfu/eslint-config-ts": "^0.38.5",
+    "@casual-ui/eslint-config-svelte": "^0.1.0",
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.1",
+    "eslint": "^8.39.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-svelte": "^2.10.0",
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.1"
+  }
 }

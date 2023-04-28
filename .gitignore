@@ -25,7 +25,8 @@ dist-ssr
 .history
 
 /build
-/.svelte-kit
+.svelte-kit
+.sveltepress
 /package
 .env
 .env.*

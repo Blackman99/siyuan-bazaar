@@ -2,8 +2,16 @@
   "name": "@siyuan-bazaar/api",
   "version": "0.0.1",
   "description": "A package that makes [Official SiYuan API](https://github.com/siyuan-note/siyuan/blob/master/API.md) mare easy to use.",
-  "main": "index.js",
+  "files": ["dist"],
   "scripts": {
+    "build": "unbuild"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
   },
   "keywords": [],
   "author": "",
